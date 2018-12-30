@@ -24,6 +24,11 @@ public class StringUtilsBenchmark {
 	}
 
 	@Benchmark
+	public void utilsSplitByWholeSeparatorPreserveAllTokens() {
+		StringUtils.splitByWholeSeparatorPreserveAllTokens("jmh string utils replace", " ");
+	}
+
+	@Benchmark
 	public void utilsSplit() {
 		StringUtils.split("jmh string utils replace", " ");
 	}
