@@ -1,4 +1,4 @@
-package main.java;
+package jmh.benchmarks;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.Runner;
 import org.openjdk.jmh.runner.RunnerException;
