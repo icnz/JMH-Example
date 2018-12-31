@@ -20,7 +20,7 @@ public class JavaBasicBenchmark {
 
 	@Benchmark
 	public void BigdecimalCompare() {
-		boolean b = BigDecimal.valueOf(0.00).compareTo(BigDecimal.ZERO) == 0;
+		boolean b = BigDecimal.valueOf(Double.valueOf("0.00")).compareTo(BigDecimal.ZERO) == 0;
 	}
 
 	public static void main(String[] args) throws RunnerException {
